@@ -1,0 +1,23 @@
+schema {
+	query: Query
+}
+
+type Query {
+	
+	allTransaction:[Transaction]
+	allByPage(page: Int, size: Int):[Transaction]
+	searchByCustId(cust_id : Long): [Transaction]
+	searchByAccNo(acc_no : Long): [Transaction]
+	searchByDesc(description : String): [Transaction]
+}
+
+type Transaction {
+	trx_idx : ID
+	cust_id : Long
+	acc_no : Long
+	trx_date : String
+	trx_time : String
+	trx_amount : Float
+	description : String
+	
+}

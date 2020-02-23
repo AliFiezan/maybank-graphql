@@ -1,0 +1,6 @@
+com\alifiezan\provider\GraphQLProvider.class
+com\alifiezan\AppMain.class
+com\alifiezan\repository\TransactionRepository.class
+com\alifiezan\model\Transaction.class
+com\alifiezan\security\AuthenticationConfig.class
+com\alifiezan\datafetchers\TransactionDataFetchers.class
